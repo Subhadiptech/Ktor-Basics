@@ -1,6 +1,8 @@
 package ersubhadipcom.models
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class BooksBody(
-    val title: String,
-    val author: String
+    val name: String
 )
